@@ -1,5 +1,7 @@
-$white: green;
+// Partials
+@import "partials/reset";
+@import "partials/var";
+@import "partials/grids";
+@import "partials/typography";
 
-h1 {
-	color: $white;
-}
+

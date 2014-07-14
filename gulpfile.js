@@ -15,7 +15,7 @@ gulp.task('browser-sync', function() {
 // Sass task, will run when any SCSS files change & BrowserSync
 // will auto-update browsers
 gulp.task('sass', function () {
-    return gulp.src('css/**/*.scss')
+    return gulp.src('css/**.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'))
         .pipe(reload({stream:true}));
